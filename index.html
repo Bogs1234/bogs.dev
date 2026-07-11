@@ -3,48 +3,114 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bogs.dev | Personal Website</title>
+  <title>Bogs.dev | Jhon Bojrg Soriano</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="hero">
-    <div class="container">
-      <h1>Hello, I'm Bogs.</h1>
-      <p>Welcome to my personal website. I'm building a place to share my projects, skills, and story.</p>
-      <a class="button" href="#about">Learn More</a>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div>
+        <p class="eyebrow">Portfolio</p>
+        <h1>Jhon Bojrg Soriano</h1>
+        <p class="subtitle">Full-stack developer focused on clean web experiences, productivity tools, and modern JavaScript applications.</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
   </header>
 
   <main class="container">
-    <section id="about" class="section section-light">
-      <h2>About Me</h2>
-      <p>This is your personal landing page. Update this section with a short introduction, your interests, and what you build.</p>
+    <section id="about" class="section">
+      <div class="section-header">
+        <span class="section-label">About</span>
+        <h2>Developer Profile</h2>
+      </div>
+      <div class="intro-card">
+        <p>I build reliable web applications with a strong focus on performance, maintainability, and user-friendly interfaces. My workflow blends frontend polish, backend automation, and continuous delivery so I can ship improvements quickly and confidently.</p>
+        <ul class="key-details">
+          <li><strong>Location:</strong> Remote / Available Worldwide</li>
+          <li><strong>Primary stack:</strong> JavaScript, TypeScript, React, Node.js</li>
+          <li><strong>Interests:</strong> APIs, tooling, UI architecture, developer productivity</li>
+        </ul>
+      </div>
     </section>
 
-    <section id="projects" class="section section-dark">
-      <h2>Projects</h2>
+    <section id="work" class="section section-alt">
+      <div class="section-header">
+        <span class="section-label">Experience</span>
+        <h2>What I do</h2>
+      </div>
       <div class="cards">
-        <article class="card">
-          <h3>Project One</h3>
-          <p>Describe a project here. Add links and details once you're ready.</p>
+        <article class="card card-highlight">
+          <h3>Web Application Development</h3>
+          <p>Design and build modern web apps with responsive layouts, accessible UI, and robust API integrations.</p>
         </article>
         <article class="card">
-          <h3>Project Two</h3>
-          <p>Use this space to showcase your work, experiments, or blog ideas.</p>
+          <h3>Backend & Automation</h3>
+          <p>Create server-side services, automation scripts, and deployment pipelines for better reliability and faster releases.</p>
+        </article>
+        <article class="card">
+          <h3>Performance & Optimization</h3>
+          <p>Improve load times, streamline workflows, and apply best practices that keep applications fast and maintainable.</p>
         </article>
       </div>
     </section>
 
-    <section id="contact" class="section section-light">
-      <h2>Contact</h2>
-      <p>Let people know how to reach you. Add your email, GitHub, or social links.</p>
-      <p><strong>Email:</strong> hello@bogs.dev</p>
+    <section id="projects" class="section">
+      <div class="section-header">
+        <span class="section-label">Projects</span>
+        <h2>Highlighted Work</h2>
+      </div>
+      <div class="cards grid-3">
+        <article class="card">
+          <h3>Project Name One</h3>
+          <p>Responsive productivity dashboard with custom charts, task automation, and a polished user flow.</p>
+          <p class="tag">JavaScript · React · API</p>
+        </article>
+        <article class="card">
+          <h3>Project Name Two</h3>
+          <p>API-first service with integrations for analytics, notifications, and workflow orchestration.</p>
+          <p class="tag">Node.js · TypeScript · Automation</p>
+        </article>
+        <article class="card">
+          <h3>Project Name Three</h3>
+          <p>Developer tooling or library designed to simplify deployment, testing, or code quality tasks.</p>
+          <p class="tag">Open source · CLI · Tooling</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2>Get in Touch</h2>
+      </div>
+      <div class="contact-grid">
+        <div>
+          <p>If you'd like to collaborate, share feedback, or discuss a project, send a note below or connect via GitHub.</p>
+          <p><strong>Email:</strong> <a href="mailto:hello@bogs.dev">hello@bogs.dev</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank" rel="noreferrer">github.com/yourname</a></p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Available for:</strong></p>
+          <ul>
+            <li>Freelance projects</li>
+            <li>Contract engineering</li>
+            <li>Long-term development roles</li>
+          </ul>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">
-      <p>Built with HTML & CSS • Ready for GitHub Pages</p>
+    <div class="container footer-grid">
+      <p>Built with HTML & CSS • Designed for GitHub Pages</p>
+      <p>© 2026 Jhon Bojrg Soriano</p>
     </div>
   </footer>
 </body>
